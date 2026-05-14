@@ -1,62 +1,64 @@
 <!DOCTYPE html><html class="light" lang="fr"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<title>Le Terroir - Coccinelle Supermarché</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
         theme: {
           extend: {
             "colors": {
-                    "tertiary-fixed": "#ffdad4",
-                    "outline-variant": "#e5bdba",
-                    "on-tertiary-fixed-variant": "#5b403c",
-                    "on-primary": "#ffffff",
-                    "surface-container-lowest": "#ffffff",
-                    "surface": "#faf9f6",
-                    "on-background": "#1a1c1a",
-                    "outline": "#906f6c",
                     "on-secondary-fixed-variant": "#28501e",
-                    "primary-fixed": "#ffdad7",
-                    "surface-container-highest": "#e3e2e0",
+                    "tertiary-fixed": "#ffdad4",
                     "inverse-surface": "#2f312f",
-                    "surface-dim": "#dbdad7",
-                    "tertiary-fixed-dim": "#e3beb8",
-                    "secondary-fixed-dim": "#a4d393",
-                    "primary-fixed-dim": "#ffb3ad",
-                    "tertiary": "#674b47",
-                    "surface-bright": "#faf9f6",
-                    "surface-tint": "#bd0f1f",
-                    "on-error": "#ffffff",
-                    "primary-container": "#ce2029",
-                    "on-tertiary-fixed": "#2b1613",
-                    "on-surface-variant": "#5c403d",
                     "on-secondary": "#ffffff",
-                    "on-primary-container": "#ffe5e2",
-                    "on-secondary-fixed": "#022100",
-                    "secondary-container": "#bdedaa",
-                    "inverse-primary": "#ffb3ad",
-                    "surface-container-high": "#e9e8e5",
-                    "surface-container": "#efeeeb",
-                    "tertiary-container": "#81635e",
-                    "background": "#faf9f6",
-                    "error-container": "#ffdad6",
-                    "secondary": "#3f6833",
-                    "on-primary-fixed-variant": "#930013",
-                    "surface-variant": "#e3e2e0",
                     "inverse-on-surface": "#f2f1ee",
+                    "primary-fixed-dim": "#ffb3ad",
+                    "on-primary-fixed-variant": "#930013",
                     "on-error-container": "#93000a",
                     "primary": "#a80017",
+                    "on-primary": "#ffffff",
                     "on-surface": "#1a1c1a",
-                    "on-tertiary": "#ffffff",
-                    "on-primary-fixed": "#410004",
-                    "on-secondary-container": "#436d37",
+                    "tertiary": "#674b47",
+                    "on-background": "#1a1c1a",
+                    "outline-variant": "#e5bdba",
+                    "surface": "#faf9f6",
                     "surface-container-low": "#f4f3f1",
-                    "secondary-fixed": "#c0f0ad",
+                    "on-primary-container": "#ffe5e2",
                     "error": "#ba1a1a",
-                    "on-tertiary-container": "#ffe6e1"
+                    "surface-tint": "#bd0f1f",
+                    "outline": "#906f6c",
+                    "on-tertiary-container": "#ffe6e1",
+                    "on-tertiary-fixed": "#2b1613",
+                    "on-primary-fixed": "#410004",
+                    "inverse-primary": "#ffb3ad",
+                    "background": "#faf9f6",
+                    "surface-bright": "#faf9f6",
+                    "error-container": "#ffdad6",
+                    "surface-dim": "#dbdad7",
+                    "surface-container-highest": "#e3e2e0",
+                    "secondary-container": "#bdedaa",
+                    "primary-fixed": "#ffdad7",
+                    "tertiary-fixed-dim": "#e3beb8",
+                    "secondary-fixed": "#c0f0ad",
+                    "on-surface-variant": "#5c403d",
+                    "surface-container": "#efeeeb",
+                    "secondary": "#3f6833",
+                    "surface-variant": "#e3e2e0",
+                    "tertiary-container": "#81635e",
+                    "secondary-fixed-dim": "#a4d393",
+                    "on-tertiary": "#ffffff",
+                    "on-error": "#ffffff",
+                    "on-secondary-container": "#436d37",
+                    "on-tertiary-fixed-variant": "#5b403c",
+                    "surface-container-lowest": "#ffffff",
+                    "primary-container": "#ce2029",
+                    "surface-container-high": "#e9e8e5",
+                    "on-secondary-fixed": "#022100"
             },
             "borderRadius": {
                     "DEFAULT": "1rem",
@@ -64,263 +66,164 @@
                     "xl": "3rem",
                     "full": "9999px"
             },
+            "spacing": {},
             "fontFamily": {
-                    "headline": ["Noto Serif"],
-                    "display": ["Noto Serif"],
-                    "body": ["Manrope"],
-                    "label": ["Manrope"]
-            }
-          }
-        }
+                    "headline": ["Noto Serif", "serif"],
+                    "display": ["Noto Serif", "serif"],
+                    "body": ["Manrope", "sans-serif"],
+                    "label": ["Manrope", "sans-serif"]
+            },
+            "fontSize": {}
+          },
+        },
       }
     </script>
 <style>
-        .organic-mask-leaf {
-            clip-path: ellipse(78% 100% at 50% 100%);
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
         }
-        .organic-blob {
-            border-radius: 60% 40% 70% 30% / 40% 50% 60% 50%;
+        
+        .organic-mask-1 {
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
         }
-        .glass-nav {
-            backdrop-filter: blur(24px);
+        .organic-mask-2 {
+            border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+        }
+        .organic-mask-3 {
+            border-radius: 50% 50% 30% 70% / 60% 30% 70% 40%;
         }
     </style>
 </head>
-<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
-<!-- Top Navigation Shell -->
-<header class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-2xl shadow-xl shadow-stone-900/5 dark:shadow-none flex justify-between items-center px-8 py-4 max-w-full mx-auto">
-<div class="text-2xl font-bold tracking-tighter text-stone-900 dark:text-stone-50 font-noto-serif">
-            Coccinelle
-        </div>
-<nav class="hidden md:flex items-center space-x-10 font-noto-serif leading-tight">
-<a class="text-red-700 dark:text-red-500 font-semibold border-b-2 border-red-700 transition-opacity duration-300" href="#">La Sélection</a>
-<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-stone-900 transition-opacity duration-300" href="#">Le Terroir</a>
-<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-stone-900 transition-opacity duration-300" href="#">Essentiels Expat</a>
-<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-stone-900 transition-opacity duration-300" href="#">Services</a>
-</nav>
+<body class="bg-surface text-on-surface font-body antialiased selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-stone-50/80 dark:bg-stone-950/80 backdrop-blur-md text-on-surface no-border shadow-xl shadow-stone-200/10 dark:shadow-black/20">
+<div class="flex justify-between items-center px-8 py-4 max-w-full">
+<a class="font-serif text-2xl font-black text-red-700 dark:text-red-500 italic tracking-tight" href="#">Coccinelle</a>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-red-700 dark:text-red-500 font-bold border-b-2 border-red-700 pb-1 font-serif tracking-tight text-on-surface scale-95 active:scale-100 transition-transform" href="#">Le Terroir</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-red-700 font-serif tracking-tight text-on-surface hover:opacity-80 transition-all duration-300 scale-95 active:scale-100 transition-transform" href="#">Boucherie</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-red-700 font-serif tracking-tight text-on-surface hover:opacity-80 transition-all duration-300 scale-95 active:scale-100 transition-transform" href="#">Crémerie</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-red-700 font-serif tracking-tight text-on-surface hover:opacity-80 transition-all duration-300 scale-95 active:scale-100 transition-transform" href="#">Épicerie</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-red-700 font-serif tracking-tight text-on-surface hover:opacity-80 transition-all duration-300 scale-95 active:scale-100 transition-transform" href="#">Vins</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-red-700 font-serif tracking-tight text-on-surface hover:opacity-80 transition-all duration-300 scale-95 active:scale-100 transition-transform" href="#">Recettes</a>
+</div>
 <div class="flex items-center space-x-6">
-<span class="material-symbols-outlined text-stone-900 dark:text-stone-50 cursor-pointer scale-95 active:scale-100 transition-transform">shopping_bag</span>
-<span class="material-symbols-outlined text-stone-900 dark:text-stone-50 cursor-pointer scale-95 active:scale-100 transition-transform">person</span>
-</div>
-</header>
-<main class="pt-24 overflow-x-hidden">
-<!-- Hero Section: Editorial Float -->
-<section class="relative min-h-[921px] flex items-center px-8 md:px-20 mb-32">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8 w-full max-w-7xl mx-auto">
-<div class="md:col-span-7 z-10 flex flex-col justify-center">
-<span class="font-label text-xs tracking-[0.2em] text-primary font-bold mb-6">ÉPICERIE FINE &amp; TERROIR</span>
-<h1 class="font-display text-5xl md:text-8xl text-on-surface leading-[1.1] mb-8">
-                        Qualité <span class="italic text-primary font-light">Parisienne,</span><br>
-<span class="ml-0 md:ml-20">Âme de Bamako.</span>
-</h1>
-<div class="flex flex-col md:flex-row items-start md:items-center gap-8">
-<button class="bg-primary-container text-on-primary px-10 py-5 rounded-full font-bold tracking-wide hover:opacity-90 transition-all flex items-center gap-3 shadow-lg shadow-primary/20">
-                            Explorerr la Collection
-                            <span class="material-symbols-outlined">arrow_forward</span>
+<button class="text-stone-600 dark:text-stone-400 hover:text-red-700 hover:opacity-80 transition-all duration-300 scale-95 active:scale-100 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">shopping_cart</span>
 </button>
-<p class="max-w-xs text-tertiary leading-relaxed text-sm">
-                            La destination ultime pour les produits européens d'exception et les meilleurs trésors locaux au cœur de l'ACI 2000.
-                        </p>
+<button class="text-stone-600 dark:text-stone-400 hover:text-red-700 hover:opacity-80 transition-all duration-300 scale-95 active:scale-100 transition-transform">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">person</span>
+</button>
 </div>
 </div>
-<div class="md:col-span-5 relative mt-12 md:mt-0">
-<div class="organic-blob bg-secondary-fixed-dim w-full aspect-square overflow-hidden shadow-2xl rotate-3">
-<img class="w-full h-full object-cover scale-110 hover:scale-100 transition-transform duration-700" data-alt="high-end supermarket interior with artisanal bread display and vibrant frais vegetables in soft warm light" src="image_1.jpg">
+</nav>
+<!-- Main Content -->
+<main class="pt-32 pb-24">
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-8 mb-32 relative">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 z-10 lg:-mr-12">
+<span class="font-label text-xs uppercase tracking-[0.2em] text-tertiary mb-6 block">Héritage Local</span>
+<h1 class="font-display text-5xl lg:text-7xl leading-none text-on-surface mb-8">Le Terroir Malien : L'Âme de Bamako</h1>
+<p class="font-body text-lg text-tertiary mb-10 leading-relaxed">Une sélection rigoureuse des meilleurs produits de notre terre. Cultivés avec passion, sélectionnés avec exigence pour votre table.</p>
+<button class="bg-primary-container text-on-primary font-body font-medium px-8 py-4 rounded-full hover:opacity-90 transition-opacity">
+                        Découvrir la Sélection
+                    </button>
 </div>
-<div class="absolute -bottom-10 -left-10 bg-surface-container-highest p-8 rounded-xl max-w-[240px] shadow-xl md:block hidden">
-<p class="font-display italic text-on-surface-variant text-lg">"Le Curateur Digital des Produits Fins au Mali."</p>
-</div>
-</div>
-</div>
-</section>
-<!-- The Expat Choice: Bento Style -->
-<section class="bg-surface-container-low py-32 px-8">
-<div class="max-w-7xl mx-auto">
-<div class="flex flex-col md:flex-row items-end justify-between mb-20 gap-8">
-<div class="max-w-xl">
-<h2 class="font-display text-4xl md:text-5xl mb-6">Le Choix des Expats à l'<span class="text-secondary">ACI 2000</span></h2>
-<p class="text-on-surface-variant text-lg leading-relaxed">Niché dans le quartier le plus prestigieux de Bamako, Coccinelle est bien plus qu'un supermarché — c'est un sanctuaire pour les palais les plus exigeants.</p>
-</div>
-<div class="flex items-center gap-4 text-primary font-bold">
-<span class="text-6xl font-display">#1</span>
-<span class="font-label text-sm uppercase tracking-widest leading-tight">Élu Marché<br>Préféré 2024</span>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<div class="bg-surface p-10 rounded-lg flex flex-col justify-between min-h-[320px]">
-<span class="material-symbols-outlined text-secondary text-4xl" data-weight="fill">location_on</span>
-<div>
-<h3 class="font-display text-2xl mb-4">Emplacement Stratégique</h3>
-<p class="text-tertiary">Situé au centre de l'ACI 2000 pour un accès sans effort et un parking sécurisé.</p>
-</div>
-</div>
-<div class="bg-primary-container text-on-primary p-10 rounded-lg md:row-span-2 flex flex-col justify-between">
-<div class="organic-blob bg-white/20 p-2 overflow-hidden aspect-square mb-8">
-<img class="w-full h-full object-cover rounded-full" data-alt="luxe european cheese platter with grapes and walnuts on a dark rustic board" src="image_2.jpg">
-</div>
-<div>
-<h3 class="font-display text-3xl mb-4">Exclusivités Belle France</h3>
-<p class="text-on-primary-container/80 text-lg">Accédez à toute la gamme de délices français authentiques, du Comté aux croissants pur beurre, livrés frais dans nos rayons.</p>
-</div>
-</div>
-<div class="bg-secondary-container p-10 rounded-lg min-h-[320px] flex flex-col justify-between">
-<span class="material-symbols-outlined text-on-secondary-container text-4xl">local_shipping</span>
-<div>
-<h3 class="font-display text-2xl text-on-secondary-container mb-4">Logistique Accélérée</h3>
-<p class="text-on-secondary-container/80">Des arrivages quotidiens par avion garantissent que « Frais de Paris » est une promesse tenue, pas seulement un slogan.</p>
-</div>
-</div>
-<div class="bg-surface-container-highest p-6 rounded-lg min-h-[320px] md:col-start-1 md:col-end-2 flex flex-col justify-between">
-<div class="w-full h-32 rounded-lg overflow-hidden mb-6">
-<img alt="Intérieur du magasin" class="w-full h-full object-cover" src="image_3.jpg">
-</div>
-<div>
-<h3 class="font-display text-2xl mb-4">Standards Expatriés</h3>
-<p class="text-on-surface-variant">Des allées propres, spacieuses et climatisées conçues pour une expérience de shopping confortable.</p>
-</div>
-</div>
-<div class="bg-tertiary-fixed p-10 rounded-lg min-h-[320px] flex flex-col justify-between">
-<span class="material-symbols-outlined text-on-tertiary-fixed text-4xl">language</span>
-<div>
-<h3 class="font-display text-2xl text-on-tertiary-fixed mb-4">Personnel Polyglotte</h3>
-<p class="text-on-tertiary-fixed-variant">Notre équipe est formée pour vous assister en français et en anglais pour un service fluide.</p>
-</div>
+<div class="lg:col-span-7 relative">
+<div class="aspect-[4/3] bg-surface-container-low organic-mask-1 overflow-hidden relative">
+<img alt="Assortiment de légumes locaux sur un marché" class="w-full h-full object-cover" data-alt="vibrant collection of fresh local malian produce including mangoes, root vegetables, and herbs on a rustic wooden table, natural soft daylight, editorial food photography style, highly realistic" src="asset_1.jpg">
 </div>
 </div>
 </div>
 </section>
-<!-- Freshness Guaranteed: Asymmetric/Organic Layout -->
-<section class="py-32 px-8 overflow-hidden">
-<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-<div class="relative">
-<div class="organic-mask-leaf w-full aspect-[4/5] bg-stone-200 overflow-hidden shadow-2xl">
-<img class="w-full h-full object-cover" data-alt="frais produce" src="image_4.jpg">
+<!-- Nos Producteurs Locaux -->
+<section class="bg-surface-container-low py-32 relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="order-2 lg:order-1 relative">
+<div class="aspect-square organic-mask-2 overflow-hidden shadow-2xl shadow-on-surface/5">
+<img alt="Agriculteur dans un champ" class="w-full h-full object-cover" data-alt="portrait of a proud local malian farmer standing in a sunlit field holding a basket of freshly harvested vegetables, warm golden hour lighting, cinematic agricultural photography, highly realistic photograph" src="asset_2.jpg">
 </div>
-<div class="absolute -top-10 -right-10 w-48 aspect-square rounded-full bg-secondary-fixed border-[12px] border-surface flex items-center justify-center text-center p-4">
-<span class="font-label text-xs font-black tracking-tighter uppercase text-on-secondary-fixed">Arrivages<br>Quotidiens</span>
+<div class="absolute -bottom-10 -right-10 bg-surface p-8 rounded-xl shadow-xl shadow-on-surface/5 max-w-sm">
+<p class="font-headline text-xl text-primary mb-2">"La terre dicte le rythme, nous ne faisons qu'écouter."</p>
+<p class="font-label text-sm text-tertiary uppercase tracking-wider">— Seydou, Maraîcher à Kati</p>
 </div>
 </div>
-<div>
-<h2 class="font-display text-5xl mb-8 leading-tight">Fraîcheur <span class="italic text-secondary">Garantie.</span></h2>
-<p class="text-on-surface-variant text-xl leading-relaxed mb-10">
-                        Chez Coccinelle, nous comprenons que la qualité commence à la source. Notre partenariat avec <span class="text-primary font-bold">Belle France</span> apporte la campagne française à votre table chaque jour.
-                    </p>
-<ul class="space-y-8">
-<li class="flex items-start gap-6">
-<span class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-secondary">eco</span>
-</span>
-<div>
-<h4 class="font-bold text-lg">Sélection Bio</h4>
-<p class="text-tertiary">Produits sans pesticides issus d'exploitations certifiées durables.</p>
+<div class="order-1 lg:order-2">
+<h2 class="font-headline text-4xl lg:text-5xl text-on-surface mb-8">Nos Producteurs Locaux</h2>
+<p class="font-body text-lg text-tertiary mb-6 leading-relaxed">Nous tissons des liens étroits avec les agriculteurs de la région de Koulikoro et de Sikasso. Chaque produit que vous trouvez dans nos rayons raconte l'histoire d'un travail acharné et d'un respect profond pour la nature.</p>
+<p class="font-body text-lg text-tertiary mb-10 leading-relaxed">Pas d'intermédiaires superflus, juste une ligne directe entre la ferme et notre épicerie. C'est notre engagement pour une fraîcheur absolue et un soutien concret à l'économie locale.</p>
+<a class="inline-flex items-center text-primary font-body font-bold hover:opacity-80 transition-opacity" href="#">
+                            Rencontrer nos partenaires
+                            <span class="material-symbols-outlined ml-2" style="font-variation-settings: 'FILL' 0;">arrow_forward</span>
+</a>
 </div>
-</li>
-<li class="flex items-start gap-6">
-<span class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined text-secondary">ac_unit</span>
-</span>
-<div>
-<h4 class="font-bold text-lg">Intégrité de la Chaîne du Froid</h4>
-<p class="text-tertiary">Réfrigération ininterrompue de la piste d'atterrissage jusqu'à nos rayons.</p>
-</div>
-</li>
-</ul>
 </div>
 </div>
 </section>
-<!-- Testimonials: Floating Glass Cards -->
-<section class="py-32 bg-secondary text-on-secondary relative">
-<div class="max-w-7xl mx-auto px-8 relative z-10">
+<!-- Sélection du Moment -->
+<section class="max-w-7xl mx-auto px-8 py-32">
 <div class="text-center mb-20">
-<h2 class="font-display text-4xl md:text-5xl">La Parole à la Communauté</h2>
+<h2 class="font-headline text-4xl lg:text-5xl text-on-surface mb-6">Sélection du Moment</h2>
+<p class="font-body text-lg text-tertiary max-w-2xl mx-auto">Au rythme des saisons, nous sélectionnons les joyaux de la production locale pour des saveurs incomparables.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-<div class="bg-white/10 backdrop-blur-lg p-12 rounded-xl relative">
-<span class="material-symbols-outlined absolute top-8 right-8 text-6xl opacity-20">format_quote</span>
-<p class="font-display text-2xl italic mb-8">"Le meilleur supermarché pour les expatriés à Bamako. On y trouve vraiment tout ce qui nous manque de l'Europe."</p>
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full bg-surface-container-highest"></div>
-<div>
-<p class="font-bold">Jean-Pierre M.</p>
-<p class="text-sm opacity-70">Mission Diplomatique</p>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+<!-- Product Card 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] bg-surface-container-low organic-mask-3 overflow-hidden mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
+<img alt="Mangues fraîches" class="w-full h-full object-cover" data-alt="close up of ripe juicy mangoes with water droplets on a textured linen cloth, rich vibrant orange and yellow colors, bright soft natural lighting, realistic food photography" src="asset_3.jpg">
 </div>
+<span class="font-label text-xs text-primary uppercase tracking-widest mb-2 block">SIKASSO</span>
+<h3 class="font-headline text-2xl text-on-surface mb-2">Mangue Kent</h3>
+<p class="font-body text-tertiary">Charnue, sans fibres, à la douceur exceptionnelle.</p>
 </div>
+<!-- Product Card 2 -->
+<div class="group cursor-pointer lg:mt-12">
+<div class="aspect-[3/4] bg-surface-container-low organic-mask-1 overflow-hidden mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
+<img alt="Papayes" class="w-full h-full object-cover" data-alt="sliced fresh papaya revealing black seeds on a dark slate background, dramatic overhead lighting, rich orange flesh contrasting with dark background, highly realistic photography" src="asset_4.jpg">
 </div>
-<div class="bg-white/10 backdrop-blur-lg p-12 rounded-xl relative mt-0 md:mt-12">
-<span class="material-symbols-outlined absolute top-8 right-8 text-6xl opacity-20">format_quote</span>
-<p class="font-display text-2xl italic mb-8">"Produits conformes et frais. Le service livraison via WhatsApp est un vrai gain de temps pour ma famille."</p>
-<div class="flex items-center gap-4">
-<div class="w-12 h-12 rounded-full bg-surface-container-highest"></div>
-<div>
-<p class="font-bold">Sarah Williams</p>
-<p class="text-sm opacity-70">Résidente de l'ACI 2000</p>
+<span class="font-label text-xs text-primary uppercase tracking-widest mb-2 block">KOULIKORO</span>
+<h3 class="font-headline text-2xl text-on-surface mb-2">Papaye Solo</h3>
+<p class="font-body text-tertiary">Chair ferme et parfumée, récoltée à maturité optimale.</p>
 </div>
+<!-- Product Card 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[3/4] bg-surface-container-low organic-mask-2 overflow-hidden mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
+<img alt="Poivrons locaux" class="w-full h-full object-cover" data-alt="vibrant red and green fresh locally grown peppers arranged asymmetrically on a light stone surface, sharp focus, bright clear daylight, highly realistic food photography" src="asset_5.jpg">
 </div>
-</div>
-</div>
-</div>
-<div class="absolute inset-0 opacity-10 pointer-events-none">
-<img class="w-full h-full object-cover" data-alt="subtle background texture of olive leaves and mediterranean patterns" src="image_5.jpg">
-</div>
-</section>
-<!-- Premium Service & WhatsApp Call to Action -->
-<section class="py-32 px-8">
-<div class="max-w-5xl mx-auto bg-surface-container-highest rounded-lg p-12 md:p-20 text-center">
-<h2 class="font-display text-4xl md:text-6xl mb-8">Prêt à sublimer votre garde-manger ?</h2>
-<p class="text-xl text-on-surface-variant mb-12 max-w-2xl mx-auto">Visitez notre magasin phare à l'ACI 2000 ou profitez de la commodité de notre service de livraison à domicile VIP.</p>
-<div class="flex flex-col md:flex-row justify-center gap-6">
-<a class="flex items-center justify-center gap-3 bg-on-surface text-surface px-10 py-5 rounded-full font-bold hover:scale-105 transition-transform" href="tel:+22371607070">
-<span class="material-symbols-outlined">call</span>
-                        71 60 70 70
-                    </a>
-<a class="flex items-center justify-center gap-3 bg-[#25D366] text-white px-10 py-5 rounded-full font-bold hover:scale-105 transition-transform" href="#">
-<span class="material-symbols-outlined">chat</span>
-                        Livraison WhatsApp
-                    </a>
+<span class="font-label text-xs text-primary uppercase tracking-widest mb-2 block">BAMAKO</span>
+<h3 class="font-headline text-2xl text-on-surface mb-2">Piments Doux</h3>
+<p class="font-body text-tertiary">Croquants et savoureux, parfaits pour vos salades composées.</p>
 </div>
 </div>
 </section>
 </main>
 <!-- Footer -->
-<footer class="bg-stone-100 dark:bg-stone-900 w-full py-20 px-8">
-<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto">
-<div class="md:col-span-1">
-<div class="text-3xl font-noto-serif italic text-stone-900 dark:text-stone-50 mb-6">Coccinelle</div>
-<p class="font-manrope uppercase tracking-widest text-xs text-stone-500 mb-4">
-                    Le Curateur Digital des Produits Fins.
-                </p>
-<div class="flex gap-4 mt-8">
-<span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-70 transition-opacity">social_leaderboard</span>
-<span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-70 transition-opacity">photo_camera</span>
+<footer class="w-full mt-20 bg-stone-100 dark:bg-stone-900 text-red-700 dark:text-red-500 font-sans text-sm tracking-wide uppercase tonal-shift-no-border flat-no-shadows">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-12 py-16 max-w-7xl mx-auto">
+<div>
+<span class="font-serif text-xl font-bold text-stone-800 dark:text-stone-200 block mb-6">Coccinelle</span>
+<p class="text-stone-500 dark:text-stone-400 normal-case tracking-normal">© 2024 Coccinelle Supermarché - L'Art de Vivre à Bamako</p>
 </div>
+<div class="flex flex-col md:items-end space-y-4">
+<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 dark:hover:text-red-400 transition-colors underline-offset-4 hover:underline" href="#">Mentions Légales</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 dark:hover:text-red-400 transition-colors underline-offset-4 hover:underline" href="#">Livraison</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 dark:hover:text-red-400 transition-colors underline-offset-4 hover:underline" href="#">Producteurs</a>
+<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 dark:hover:text-red-400 transition-colors underline-offset-4 hover:underline" href="#">Contact</a>
 </div>
-<div class="flex flex-col space-y-4">
-<h5 class="font-bold text-stone-900 dark:text-stone-50 mb-2">Shopping</h5>
-<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 font-manrope uppercase tracking-widest text-xs transition-colors duration-200" href="#">La Sélection</a>
-<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 font-manrope uppercase tracking-widest text-xs transition-colors duration-200" href="#">Terroir Artisanal</a>
-<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 font-manrope uppercase tracking-widest text-xs transition-colors duration-200" href="#">Nouveautés</a>
-</div>
-<div class="flex flex-col space-y-4">
-<h5 class="font-bold text-stone-900 dark:text-stone-50 mb-2">Légal &amp; Logistique</h5>
-<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 font-manrope uppercase tracking-widest text-xs transition-colors duration-200" href="#">Politique de Confidentialité</a>
-<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 font-manrope uppercase tracking-widest text-xs transition-colors duration-200" href="#">Conditions de Service</a>
-<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 font-manrope uppercase tracking-widest text-xs transition-colors duration-200" href="#">Logistique Import</a>
-<a class="text-stone-500 dark:text-stone-400 hover:text-red-700 font-manrope uppercase tracking-widest text-xs transition-colors duration-200" href="#">Nos Magasins</a>
-</div>
-<div class="flex flex-col space-y-4">
-<h5 class="font-bold text-stone-900 dark:text-stone-50 mb-2">Nous Visiter</h5>
-<p class="text-stone-500 text-xs font-manrope uppercase tracking-widest leading-relaxed">
-                    Hamdallaye ACI 2000<br>
-                    Près de l'Ambassade des USA<br>
-                    Bamako, Mali
-                </p>
-<p class="text-primary font-bold mt-4">71 60 70 70</p>
-</div>
-</div>
-<div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-stone-200 dark:border-stone-800 text-center">
-<p class="font-manrope uppercase tracking-widest text-[10px] text-stone-400">
-                © 2024 Coccinelle Supermarché. Le Curateur Digital des Produits Fins.
-            </p>
 </div>
 </footer>
 </body></html>
